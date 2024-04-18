@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/exercises.jpg" type="image/jpg">                 <!-- favicon -->
+    <script src="js/script1.js"> </script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Exercises</title>
+</head>
+<body>
+    <div class="two-col">
+        <h2>Exercise 1:</h2>
+        <p>
+            Program that it takes an integer series from prompt and, it calculate and it shows, on the web page, the sum, the average, the product, the minor
+            and the major. It should take the numbers until, the user inserts the number 0 <br>
+            <div id="results1"> </div>
+        </p>
+        <button onclick="return show_series()">Try it!</button>
+        <br>
+        <h2>Exercise 2:</h2>
+        <p>
+            Program that it orders an integer array and, it prints also the reverse array. It should let the user inserts the number, unless the user inserts the 
+            number 0 and, then it should show the ascending sorted/reverse and ordered array <br>
+            <div id="results2"> </div>
+        </p>
+        <button onclick="return BubbleSort()">Try it!</button>
+        <br>
+        <h2>Exercise 3:</h2>
+        <p>
+            Program that from 2 integer array, it creates a new array that it contains the ordered elements of the first 2 array (you should put the number 0 to terminate
+            the insertion on the array) <br>
+            <div id="results3"> </div>
+        </p>
+        <button onclick="return concatenate()">Try it!</button>
+    </div>
+    
+    <div class="two-col">
+        <h2>Exercise 4:</h2>
+        <p>
+            Program that it asks to user to insert the array size, it creates the array populate it with the random integer numbers and, then it sorts the array <br>
+            <div id="results4"> </div>
+        </p>
+        <button onclick="return randomArray()">Try it!</button>
+        <br>
+        <h2>Exercise 5:</h2>
+        <p>
+            Program that it counts the character occurences of a string. The user should insert the string before and, then the character to search. The program should
+            considers both the lower case and the upper case <br>
+            <div id="results5"> </div>
+        </p>
+        <button onclick="return occurences()">Try it!</button>
+        <br>
+        <h2>Exercise 6:</h2>
+        <p>
+            Program that it draws on the web page a triangle with the '#'. The program should ask to you to insert the number of '#' <br>
+            <div id="results6"> </div>
+        </p>
+        <button onclick="return triangle()">Try it!</button>
+    </div>
+
+    <div id="button-reset">
+        <button id="btn-reset" onclick="return reset()">Reset!</button>
+    </div>
+
+    <form action="index2.html" id="form-arrow-right">
+        <input type="image" src="img/arrow-right.png" id="arrow-right">
+    </form>
+</body>
+</html>
