@@ -1,0 +1,55 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: yellow;
+	text-align: center;
+	font-size: 60px;
+}
+
+#wrapper {
+	text-align: justify;
+}
+
+#img-left {
+	float: left;
+}
+
+#img-right {
+	float: right;
+}
+
+.animate__animated {
+	--animate-duration: 3s;
+}
+
+p {
+	color: white;
+	text-align: justify;
+	margin: 3%;
+}
+
+h2 {
+	color: yellow;
+}
+
+h3 {
+	color: yellow;
+	text-align: center;
+}
+
+ul {
+	color: yellow;
+	margin-left: 2%;
+}
+
+a {
+	margin-left: 0.5%;
+	text-decoration: none;
+	color: lime;
+}
+
+a:hover {
+	color: red;
+}
