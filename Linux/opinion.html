@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="images/form.png" type="image/png" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles/opinion.css" type="text/css" />
+		<script src="scripts/form.js"></script>
+		<title>Form</title>
+	</head>
+	<body>
+		<form id="data" class="row g-3" onsubmit="return checkForm()">
+			<h2>Fill with your data</h2>
+			<div class="col-md-6">
+				<label for="surname" class="form-label">Surname</label>
+				<input
+					type="text"
+					size="20"
+					placeholder="Surname"
+					class="form-control"
+					autofocus
+					required
+				/>
+			</div>
+
+			<div class="col-md-6">
+				<label for="name" class="form-label">Name</label>
+				<input
+					type="text"
+					size="20"
+					placeholder="Name"
+					class="form-control"
+					required
+				/>
+			</div>
+
+			<div class="col-md-4">
+				<label for="inputCity" class="form-label">City</label>
+				<input type="text" class="form-control" id="inputCity" />
+			</div>
+
+			<div class="col-md-4">
+				<label for="inputState" class="form-label">State</label>
+				<select id="inputState" class="form-select">
+					<option selected>Choose...</option>
+					<option value="1">Italy</option>
+					<option value="2">France</option>
+					<option value="3">Spain</option>
+					<option value="4">England</option>
+				</select>
+			</div>
+
+			<div class="col-md-2">
+				<label for="inputZip" class="form-label">Zip code</label>
+				<input type="text" class="form-control" id="inputZip" />
+				<span id="zip_alert"></span>
+			</div>
+
+			<div>
+				<label for="preference1" class="preferences"
+					>Which OS do you prefer?</label
+				>
+				<br />
+				Microsoft Windows <input type="checkbox" name="Windows" />
+				<br />
+				Unix/Linux <input type="checkbox" name="Unix-Linux" checked />
+				<br />
+				macOS <input type="checkbox" name="macOS" />
+			</div>
+
+			<div>
+				<label for="preference2" class="preferences"
+					>Which programming language do you prefer?</label
+				>
+				<br />
+				Shell <input type="radio" name="language" value="sh" checked />
+				<br />
+				Perl <input type="radio" name="language" value="pl" />
+				<br />
+				Python <input type="radio" name="language" value="py" />
+			</div>
+
+			<div class="form-floating">
+				<textarea
+					class="form-control"
+					maxlength="100"
+					id="floatingTextarea"
+				></textarea>
+				<label for="floatingTextarea">Comments</label>
+			</div>
+
+			<div class="col-12">
+				<input type="submit" class="btn btn-primary" value="submit" />
+				<input type="reset" class="btn btn-danger" value="Reset" />
+			</div>
+		</form>
+
+		<div>
+			<form action="homepage.html" id="arrow-left-form">
+				<input type="image" src="images/arrow-left.png" id="arrow-left" />
+			</form>
+		</div>
+	</body>
+</html>
