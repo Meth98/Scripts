@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'HappyMonkey';
+	src: url('../resources/HappyMonkey.ttf');
+}
+
+body {
+	background-color: lightskyblue;
+}
+
+h2 {
+	text-align: center;
+	color: red;
+	margin-top: 4%;
+	font-family: HappyMonkey;
+}
+
+#audio-content {
+	margin: auto;
+	margin-top: 3%;
+	text-align: center;
+	width: 33%;
+}
+
+#video-content {
+	text-align: center;
+}
+
+#videoplayer {
+	margin-top: 1%;
+}
+
+#arrow-left-form {
+	float: left;
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
+#arrow-right-form {
+	float: right;
+	margin-right: 1%;
+	margin-top: 5%;
+}
+
+#arrow-left {
+	width: 50px;
+	height: 50px;
+}
+
+#arrow-right {
+	width: 50px;
+	height: 50px;
+}

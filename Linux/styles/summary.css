@@ -1,0 +1,84 @@
+body {
+	background-color: lightblue;
+}
+
+details {
+	text-align: center;
+	margin-top: 1%;
+}
+
+.table.table-bordered.border-dark {
+	width: 50%;
+	margin: auto;
+	height: auto;
+}
+
+thead {
+	text-align: center;
+}
+
+tbody tr th {
+	font-weight: normal;
+}
+
+td {
+	text-align: center;
+}
+
+hr {
+	width: 60%;
+	margin: auto;
+}
+
+#nagios-title {
+	font-weight: bold;
+	text-align: center;
+}
+
+#nagios-info {
+	text-align: left;
+	padding: 2%;
+	width: 35%;
+}
+
+#nagios-wrapper {
+	width: 30%;
+}
+
+#nagios-logo {
+	width: 80%;
+	height: 80%;
+	padding-top: 100%;
+}
+
+.nagios-list {
+	list-style-type: square; /* set the list style */
+}
+
+#nagios-logo:hover {
+	opacity: 0.5; /* set the opacity of the item */
+}
+
+form {
+	padding-top: 3%;
+}
+
+#arrow-left-form {
+	float: left;
+	margin-left: 1%;
+}
+
+#arrow-right-form {
+	float: right;
+	margin-right: 1%;
+}
+
+#arrow-left {
+	width: 50px;
+	height: 50px;
+}
+
+#arrow-right {
+	width: 50px;
+	height: 50px;
+}

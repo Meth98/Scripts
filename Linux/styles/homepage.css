@@ -1,0 +1,137 @@
+/* include an extern font-family */
+@font-face {
+	font-family: 'HappyMonkey';
+	src: url('../resources/HappyMonkey.ttf');
+}
+
+body {
+	background-color: lightblue;
+}
+
+#wrapper {
+	width: 75%;
+	margin: auto;
+	height: auto;
+	margin-top: 2%;
+	border: 2px blue solid;
+	border-radius: 20px;
+}
+
+header {
+	height: 85px;
+	position: relative; /* to move something in the own wrapper */
+}
+
+header p {
+	font-family: HappyMonkey;
+	text-align: center;
+	color: red;
+	font-size: 35px;
+	padding-top: 10px;
+}
+
+#img-right {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 15%;
+	top: 10px;
+}
+
+#img-left {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 15%;
+	top: 10px;
+}
+
+nav {
+	border-bottom: 2px blue dotted;
+	border-top: 2px blue dotted;
+	padding-left: 16%;
+}
+
+nav ul {
+	list-style-type: none; /* remove the style from a list (like: •) */
+}
+
+.nav-item {
+	display: inline-block; /* show the blocks 'inline' and not one under the other */
+	padding-right: 15%;
+}
+
+.nav-link {
+	font-size: 16px;
+	color: darkred;
+}
+
+.nav-link:hover {
+	color: blue;
+}
+
+#first-content {
+	border-bottom: 2px blue dotted;
+	padding: 15px;
+	font-size: 17px;
+}
+
+#first-content p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+#programming-languages {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#second-content {
+	display: inline-block;
+}
+
+.three-col {
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+	text-align: left;
+	padding: 13px;
+	font-size: 17px;
+}
+
+span {
+	color: blue;
+	font-style: italic;
+	font-size: 19px;
+}
+
+hr {
+	color: blue;
+}
+
+#society {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	padding-right: 50px;
+	font-size: 20px;
+	background-image: url(../images/bullet.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 20px;
+}
+
+footer ul li a {
+	text-decoration: none; /* remove the link underline */
+}

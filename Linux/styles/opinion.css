@@ -1,0 +1,39 @@
+body {
+	background-image: url('../images/background.jpg'); /* set a background image */
+}
+
+#data {
+	background-color: peachpuff;
+	width: 50%;
+	margin: auto;
+	border: 3px firebrick solid;
+	border-radius: 15px;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	margin-top: 6%;
+}
+
+h2 {
+	color: midnightblue;
+	text-align: center;
+}
+
+label {
+	color: midnightblue;
+}
+
+.preferences {
+	color: red;
+}
+
+#arrow-left-form {
+	float: left;
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
+#arrow-left {
+	width: 50px;
+	height: 50px;
+}
